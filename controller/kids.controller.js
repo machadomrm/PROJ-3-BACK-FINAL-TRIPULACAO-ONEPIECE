@@ -1,4 +1,4 @@
-const Kid = require("../models/kidmol"); 
+const Kid = require("../models/kids"); 
 
 exports.getAll = async (req,res) => {
     await Kid.find({}).then((kids) => {

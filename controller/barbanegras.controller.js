@@ -1,4 +1,4 @@
-const Barbanegra = require("../models/barbanegramol"); 
+const Barbanegra = require("../models/barbanegras"); 
 
 exports.getAll = async (req,res) => {
     await Barbanegra.find({}).then((barbanegras) => {

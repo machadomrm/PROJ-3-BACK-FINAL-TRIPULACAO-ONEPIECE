@@ -1,4 +1,4 @@
-const Donquixote = require("../models/donquixotemol"); 
+const Donquixote = require("../models/donquixotes"); 
 
 exports.getAll = async (req,res) => {
     await Donquixote.find({}).then((donquixotes) => {

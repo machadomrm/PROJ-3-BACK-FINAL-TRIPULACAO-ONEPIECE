@@ -1,4 +1,4 @@
-const Chapeupalha = require("../models/chapeupalhamol"); 
+const Chapeupalha = require("../models/chapeupalhas"); 
 
 exports.getAll = async (req,res) => {
     await Chapeupalha.find({}).then((chapeupalhas) => {

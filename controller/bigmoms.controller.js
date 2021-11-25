@@ -1,4 +1,4 @@
-const Bigmom = require("../models/bigmommol"); 
+const Bigmom = require("../models/bigmoms"); 
 
 exports.getAll = async (req,res) => {
     await Bigmom.find({}).then((bigmoms) => {
